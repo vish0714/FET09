@@ -1,0 +1,23 @@
+- Initialize a repository
+git init
+
+- Configure the username
+git config --global user.name "username"
+git config user.name
+
+- Configure the email
+git config --global user.email "email"
+git config user.email
+
+- Check the status of the files
+git status
+
+- Add the modified files into the staging area
+git add . 
+
+- Create a commit
+git commit -m "This is the description."
+
+- View the commit history
+git log
+git log --oneline
